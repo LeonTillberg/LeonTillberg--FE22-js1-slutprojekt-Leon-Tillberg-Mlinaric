@@ -1,0 +1,126 @@
+body{
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    border: 2px solid rgb(39, 37, 37);
+    margin-left: 2px;
+    background-color: rgb(39, 37, 37);
+}
+
+#user-text{
+    margin: 1rem;
+    border: 2px solid black;
+}
+
+#user-quantity{
+    margin: 1rem;
+    border: 2px solid black;
+    width: 6em;
+}
+
+input{
+    font-size: 16px;
+}
+
+fieldset{
+    border: 2px solid black;
+    margin-bottom: 1rem;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+label{
+    font-size: 17px;
+}
+
+button{
+    border: 3px solid black;
+    border-radius: 40%;
+    font-size: 15px;
+    margin-left: 20px;
+   
+}
+
+h2{
+    color: rgb(254, 0, 249);
+    font-size: 25px;
+}
+
+h3{
+    font-weight: bold;
+} 
+
+h1{
+    color: rgb(254, 0, 249);
+    font-size: 30px;
+    margin-left: 2rem;
+}
+
+p{
+    color: rgb(254, 0, 249)
+}
+
+#picture-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2px;
+    margin-bottom: 18rem;
+}
+
+img{
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+footer{
+    margin-left: 0.15rem;
+    border: 2px solid rgb(39, 37, 37); 
+    background-color: rgb(39, 37, 37);  
+}  
+
+.contacts{
+text-align: center;
+margin-left: 0.5rem;
+padding: 0px;
+}
+
+.copyright{
+    text-align: center;
+    color: rgb(254, 0, 249);
+    margin-bottom: 0.5rem;
+}
+
+a{
+    color: rgb(254, 0, 249);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(254, 0, 249);
+}
+
+/* Animation */
+#container {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border-radius: 50%;
+    top:-6px;
+    left:-8px;
+}
+
+.path{
+    stroke: black;
+    stroke-width: 1px;
+}
