@@ -1,102 +1,123 @@
-body{
-    background-image: url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+* {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
-    border: 2px solid rgb(39, 37, 37);
-    margin-left: 2px;
-    background-color: rgb(39, 37, 37);
+body {
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTc4NzM1OTc4MzE0MzQzOTM1/how-to-create-cool-website-backgrounds-the-ultimate-guide.png);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-#user-text{
+nav {
+    border: 2px solid rgb(39, 37, 37);
+    background-color: rgb(39, 37, 37);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#user-text {
     margin: 1rem;
     border: 2px solid black;
 }
 
-#user-quantity{
+#user-quantity {
     margin: 1rem;
     border: 2px solid black;
     width: 6em;
 }
 
-input{
+input {
     font-size: 16px;
 }
 
-fieldset{
+fieldset {
     border: 2px solid black;
     margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
-legend{
+legend {
     font-weight: bold;
     font-size: 18px;
 }
 
-label{
+label {
     font-size: 17px;
 }
 
-button{
-    border: 3px solid black;
+button {
+    border: 2px solid black;
     border-radius: 40%;
     font-size: 15px;
+    padding: 3px;
     margin-left: 20px;
-   
+
 }
 
-h2{
+h2 {
     color: rgb(254, 0, 249);
     font-size: 25px;
 }
 
-h3{
+h3 {
     font-weight: bold;
-} 
+}
 
-h1{
+h1 {
     color: rgb(254, 0, 249);
     font-size: 30px;
     margin-left: 2rem;
 }
 
-p{
+p {
     color: rgb(254, 0, 249)
 }
 
-#picture-container{
+#picture-container {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 2px;
-    margin-bottom: 18rem;
+    margin-top: 20px;
+    margin-left: 1rem;
+    margin-bottom: 50px;
+
+    flex: 1;
 }
 
-img{
+img {
     margin-bottom: 0.5rem;
     margin-right: 0.5rem;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-footer{
-    margin-left: 0.15rem;
-    border: 2px solid rgb(39, 37, 37); 
-    background-color: rgb(39, 37, 37);  
-}  
-
-.contacts{
-text-align: center;
-margin-left: 0.5rem;
-padding: 0px;
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(39, 37, 37);
+    position: relative;
+    bottom: 0; 
 }
 
-.copyright{
+footer p {
+    margin: 5px 5px
+}
+
+.contacts {
+    text-align: center;
+    margin-left: 0.5rem;
+    padding: 0px;
+}
+
+.copyright {
     text-align: center;
     color: rgb(254, 0, 249);
     margin-bottom: 0.5rem;
 }
 
-a{
+a {
     color: rgb(254, 0, 249);
     text-decoration: none;
 }
@@ -116,11 +137,11 @@ a:hover {
     width: 15px;
     background-color: blue;
     border-radius: 50%;
-    top:-6px;
-    left:-8px;
+    top: -6px;
+    left: -8px;
 }
 
-.path{
+.path {
     stroke: black;
     stroke-width: 1px;
 }
